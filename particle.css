@@ -1,0 +1,282 @@
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dd, dt, img, form, fieldset, input, blockquote{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	font-family: helvetica, ariayl, sans-serif;
+	line-height: 24px;
+	background: #eee; url(images/body-bg.jpg) cnter top no-repeat; 
+}
+#container{
+	width: 825px;
+	margin: 0 auto;
+	padding: 143px 0 0 0; /* div asli ro ba blay safhe fasele midahim ta ax paszamine body moshakhas shavad*/
+}
+#header {
+	/*background: url(xxx.jpg) right bottom no-repead;*/
+	background-color: ;
+	height: 20px;
+}
+#header h1{
+	float: left;
+	margin-left: ;
+}
+#header ul#categories {
+	float: right;
+	list-style: none;
+	margin: 16px 0 0 0;;
+}
+#header ul#categories li {
+	float: left;
+	margin: 0 0 0 30px;
+}
+#header ul#categories li a{
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase; /* baray bozorg kardane harfhay matn */
+	color: #a42988;
+	text-shadow: 0 2px 0px #fff;
+}
+#header ul#categories li a:hover{
+	color: #006ab1;
+}
+
+
+    /*--------------------------------  sabk dehi be mohavay asli har post -----------------*/
+	
+	
+#content a{
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #a42988;              /* ablaluiiii */
+	text-shadow: 0 2px 0px #fff;
+}
+#content a:hover{
+	color: #006ab1;  /* abii */
+}
+#content #main {
+	width: 600px;
+	float: left;
+	padding: 55px 0 0 0;
+}
+#content #main h2{
+	margin: 0 0 16px 0;
+}
+#content #main p{
+	margin:0 0 25px 0;
+	color: #474747;  /* siyah kam rang baray matn*/ 
+	font-size: 15px;
+}
+#content #main .post{
+	padding: 0 47px 55px 0;
+	margin: 0 0 55px 0;
+	overflow: hidden;
+}
+#content #main .post .date {
+	width: 62px;
+	height: 57px;
+	float: left;
+	padding: 15px 0 0 0;  /* dar vaghe fasele daruni be andazr div miafzayad. dar inja 15px be height div azafe shod*/
+	margin: 0 20px 0 0;
+	background: #0085cc url(xxx.jpg);
+	text-align: center; /* baes mishavad matn daroon div be vasat div beyayad */
+}
+#content #main .post .date p{
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;  /* sefid */
+	text-shadow: 0 2px 3px #006ab1;
+}
+#content #main .post .date p span{
+	display: block;   /* vaghti display aspn ro dar in halat block mikonim sapn  zir p gharar migirad */
+	font-size: 17px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 5px 0 0 0;
+}
+#content #main .post .post-content{
+	float: right;
+	width: 470px;
+}
+#content #main .post-content ul.post-meta {
+	width: 470px;
+	height: 25px;
+	list-style: none;
+	background: #d6d6d6 url(sss.jpg);  /* khakestari ruushan */
+}
+#content #main .post .post-content ul.post-meta li{
+	float: left;
+	margin: 0 30px 0 0;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0px 2px 3px #b8b8b8;
+}
+#content #main .post .post-content ul.post-meta li.read-more {
+	float : right;     /* baray inke mikhahim in link joday az baghiya bashad pas anra shnavar be rast mikonim*/
+	margin: 0 0 0 0;
+}
+#content #main .post .post-content ul.post-meta li a {
+	color: #fff;
+	text-shadow: 0px 2px 3px #b8b8b8;
+}
+#content #main .post .post-content ul.post-meta li a:hover {
+	color: #eee;
+}
+
+   /*---------------------------------------------------------------------------------*/
+   /*----------------------------  sabk dehi be ghesmat 'side' -----------------------*/
+   
+#content #side {
+	float: left;
+	width: 180px;
+	background-color: #c8c8c8;
+	padding:5px 20px;
+	margin-top: 25px;
+}
+#content #side p#subscribe a{
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	height: 30px;
+	padding: 7px 0 0 35px;
+	margin: 0 0 15px 0;
+	text-shadow: 0px 2px 3px #b8b8b8;
+}
+#content #side p#subscribe a:hover {
+	color: #eee;  /* khakestarii */
+}
+#content #side ul#pages{
+	list-style: none;
+	margin: 0 0 30px 0;
+}
+#content #side ul#pages li {
+	margin-bottom:5px; 
+}
+#content #side ul#pages li a {
+	display: block;
+	width: 150px;
+	height: 23px;
+	text-align: center;
+	padding: 10px 15px;
+	background: #eee url(hhh.jpg);
+}
+#content #side h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 5px;
+	text-shadow: 0px 2px 3px #b8b8b8;
+}	
+#content #side ul#follow-me {
+	list-style: none;
+	overflow: hidden;
+	margin-bottom: 30px;
+}	
+#content #side ul#follow-me li {
+	float: left;
+	margin: 0 8px 8px 0;
+}	
+#contact #side ul#follow-me li a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+}	
+#content #side ul#follow-me li a.twitter {
+	background: url(bnbn.jpg);
+}
+#content #side ul#follow-me li a.facebook{
+	background: url(dbdb.jpg);
+}		
+#content #side ul#follow-me li a.flicker{
+	background: url(cbcb.jpg);
+}		
+#content #side ul#follow-me li a.youtube{
+	background: url(mnmn.jpg);
+}	
+#content #side ul#follow-me li a.vimeo{
+	background: url(cmcm.jpg);
+}
+#content #side form#search {
+	margin-bottom: 30px;
+}
+#content #side form#search input.search-bar {
+	font-size: 15px;
+	color: #474747;
+	width: 135px;
+	height: 36;
+	float: left;
+	padding: 1px 25px 0 0px;
+}	
+#content #side form#search input.search-btn {
+	float: right;
+	width: 20px;
+	height: 18px;
+	cursor: pointer;
+	background: ulr(hghghg.jpg);
+	text-ident: -9999px;
+}	
+
+ /****------------------------ footer----------------------****/
+#footer {
+	width: 825px;
+	min-height: 139px;
+	background:  url(klklkl.jpg) center top no-reapet;
+	clear: both;
+} 
+#footer ul#credits {
+	list-style: none;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+#footer ul#credits li {
+	float: left;
+	margin-right: 10px;
+}
+#footer ul#credits li a{
+	display: block;
+	height: 21px;
+}
+#footer ul#credits li a.wordpress {
+	width: 21px;
+	margin-right: 10px;
+}	
+#footer ul#credits li a.spoongraphics {
+	width: 26px;
+	background-position: 26px 0;
+}	
+#footer p#back-top  {
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+}	
+#footer p#back-top a {
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #a42988;
+}	
+#footer p#back-top a:hover {
+	color: #006ab1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
