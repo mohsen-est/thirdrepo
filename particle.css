@@ -6,7 +6,7 @@ body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dd, dt, img, form, fieldset, 
 body{
 	font-family: helvetica, ariayl, sans-serif;
 	line-height: 24px;
-	background: #eee; url(images/body-bg.jpg) cnter top no-repeat; 
+	background: #eee; url(images/body-bg.jpg) center top no-repeat; 
 }
 #container{
 	width: 825px;
